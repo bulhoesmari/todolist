@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="https://npmcdn.com/parse/dist/parse.min.js"></script>
+    <script type="text/javascript" type="text/javascript">
+        Parse.initialize("7b4za70jO2BlCWkLd7Hw8Ld6RqJ7Wz8yfshLUWO2","Bel6dMrnP40G41UdJrhF3v0WPhp1BiIzQwzkO4pS"); 
+        Parse.serverURL = 'https://parseapi.back4app.com/'
+    </script>
+    <script src="todolist.js" defer> </script>
+    <link rel="stylesheet" href="https://fonts.sandbox.google.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@48,400,1,0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>todo</title>
+</head>
+<body>
+    
+    <div class="title">
+        <h1>To-Do List</h1>
+    </div>
+    <div class="add-tarefas">
+        <input id="nova-tarefa" placeholder="Adicionar nova tarefa" />
+        <span id="add-tarefa" class="material-symbols-sharp">add_circle</span>
+    </div>
+    
+    <ul id="todo-list"></ul>
+
+</body>
+</html>
